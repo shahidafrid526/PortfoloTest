@@ -1,0 +1,100 @@
+#main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#hero{
+    height: 600px;
+    max-height: 600px;
+    background-image: linear-gradient(90deg, #092638, #3782A8);
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#heroText>{
+    margin: 30px;
+}
+
+#heroText>h1{
+    margin: 30px;
+    color: #59BADB;
+}
+
+#heroText>p{
+color: white;
+text-align: center; 
+}
+
+#heroText>form{
+    display: flex;
+    flex-direction: column;   
+}
+
+#heroText>form>input{
+    margin: 5px 0px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    background-color:#57c7ff;
+
+}
+
+#heroText>form>button{
+    margin: 5px 0px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    background-color:white;
+}
+
+#heroText>form>button:hover{
+    color: white;
+    background-color:rgb(21, 10, 242);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#heroImage>{
+    margin: 30px;
+}
+
+#heroImage>img{
+    width:500px;
+    margin: 30px;
+}
+
+#floating{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+}
+
+#about{
+    width: 100%;
+    height:500px;
+    background-color: #092638;
+}
+
+#card1 h1, p{
+    color: white;
+}
+
+.fa{
+    color: white;
+    width: 100px;
+    text-align: center;
+    size: 100px;
+}
+
+#allcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card1{
+    margin: 20px;
+}
